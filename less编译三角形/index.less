@@ -1,0 +1,47 @@
+@w:0;
+@h:0;
+.box ul{
+	list-style: none;
+}
+.mixi{
+	width: @w;
+	height: @h;
+	float: left;
+	margin-right: 15px;
+}
+//正方向
+.Hr(@size,@color,@index,@direction){
+	.box{
+		ul{
+			li:nth-child(@{index}){
+				.mixi;
+				border: @size solid transparent;
+				border-@{direction}: @size solid  @color;
+			}
+		}
+	} 
+	
+}
+//侧方向
+.Hr2(@size,@color,@index,@direction,@direction2){
+	.box{
+		ul{
+			li:nth-child(@{index}){
+				.mixi;
+				border: @size solid transparent;
+				border-@{direction}: @size solid  @color;
+				border-@{direction2}: @size solid  @color;
+			}
+		}
+	} 
+	
+}
+.Hr(80px,red,1,top);
+.Hr(60px,green,2,bottom);
+.Hr(40px,blue,3,left);
+.Hr(80px,orange,4,right);
+
+.Hr2(50px,#05DFD7,5,left,top);
+.Hr2(60px,#678A74,6,left,bottom);
+.Hr2(70px,#192965,7,right,top);
+.Hr2(80px,#7FCD91,8,right,bottom);

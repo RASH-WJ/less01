@@ -1,0 +1,77 @@
+.box ul {
+  list-style: none;
+}
+.mixi {
+  width: 0;
+  height: 0;
+  float: left;
+  margin-right: 15px;
+}
+.box ul li:nth-child(1) {
+  width: 0;
+  height: 0;
+  float: left;
+  margin-right: 15px;
+  border: 80px solid transparent;
+  border-top: 80px solid red;
+}
+.box ul li:nth-child(2) {
+  width: 0;
+  height: 0;
+  float: left;
+  margin-right: 15px;
+  border: 60px solid transparent;
+  border-bottom: 60px solid green;
+}
+.box ul li:nth-child(3) {
+  width: 0;
+  height: 0;
+  float: left;
+  margin-right: 15px;
+  border: 40px solid transparent;
+  border-left: 40px solid blue;
+}
+.box ul li:nth-child(4) {
+  width: 0;
+  height: 0;
+  float: left;
+  margin-right: 15px;
+  border: 80px solid transparent;
+  border-right: 80px solid orange;
+}
+.box ul li:nth-child(5) {
+  width: 0;
+  height: 0;
+  float: left;
+  margin-right: 15px;
+  border: 50px solid transparent;
+  border-left: 50px solid #05DFD7;
+  border-top: 50px solid #05DFD7;
+}
+.box ul li:nth-child(6) {
+  width: 0;
+  height: 0;
+  float: left;
+  margin-right: 15px;
+  border: 60px solid transparent;
+  border-left: 60px solid #678A74;
+  border-bottom: 60px solid #678A74;
+}
+.box ul li:nth-child(7) {
+  width: 0;
+  height: 0;
+  float: left;
+  margin-right: 15px;
+  border: 70px solid transparent;
+  border-right: 70px solid #192965;
+  border-top: 70px solid #192965;
+}
+.box ul li:nth-child(8) {
+  width: 0;
+  height: 0;
+  float: left;
+  margin-right: 15px;
+  border: 80px solid transparent;
+  border-right: 80px solid #7FCD91;
+  border-bottom: 80px solid #7FCD91;
+}
